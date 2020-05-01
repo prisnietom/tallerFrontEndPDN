@@ -2,8 +2,8 @@ FROM node:12-alpine
 
 LABEL maintainer="prisnm@gmail.com"
 
-ADD . /frontEnd
-WORKDIR /frontEnd
+ADD . /frontend
+WORKDIR /frontend
 
 RUN yarn add global yarn \
 && yarn install \
